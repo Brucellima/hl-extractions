@@ -1,7 +1,8 @@
 # -*- coding: UTF-8 -*-
 
 # Import Twitter and Credentials class from Twitter module
-from Twitter import Twitter, Credentials
+from Twitter import Twitter
+from Credentials import Credentials
 
 # Instance of Credentials class with credential file as parameter
 credentials = Credentials('credentials.csv')
